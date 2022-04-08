@@ -117,7 +117,7 @@ const AddEditBlog = () => {
     formData.append("upload_preset", "mmfk2zxn");
     axios
       .post(
-        "http://api.cloudinary.com/v1_1/dyo2yzaae/image/upload",
+        "https://api.cloudinary.com/v1_1/dyo2yzaae/image/upload",
         formData
       )
       .then((resp) => {
